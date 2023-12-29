@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-Do List App</title>
+        <link href="/dist/output.css" rel="stylesheet" />
+    </head>
+    <body>
+        <div class="container mx-auto px-4 sm:max-w-2xl">
+            <div class="bg-slate-200 p-4 my-4 rounded-lg shadow-sm">
+                <h1 class="text-3xl font-bold text-slate-700">SuperTasker Pro</h1>
+                <div id="form" class="flex items-center justify-between flex-col sm:flex-row mt-4 space-y-2 sm:space-x-4">
+                    <input type="text" maxlength="100" class="w-full py-2 px-4 rounded-full outline-none" placeholder="Write Your Task Here!" />
+                    <input type="submit" class="bg-blue-500 text-white font-bold px-4 py-2 w-full sm:w-fit rounded-full" value="Add Task" />
+                </div>
+                <div id="taskType">
+                    <div id="inProgress">In Progress</div>
+                </div>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
